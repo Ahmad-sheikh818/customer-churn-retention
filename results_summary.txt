@@ -1,0 +1,61 @@
+=== EDA ===
+Customers: 5,000
+Overall churn rate: 22.9%
+
+Customer mix (plan):
+plan
+Basic         49.1
+Pro           35.2
+Enterprise    15.7
+
+Customer mix (segment):
+segment
+Startup       45.8
+SMB           35.2
+Mid-market    19.0
+
+=== Engineered features ===
+active_months, tickets_per_month, is_high_ticket, recency_bucket, revenue_tier
+
+=== Cohort retention (month-3 snapshot) ===
+Average month-3 retention across observable cohorts: 87.8%
+Best cohort: 2025-10 (95.0%) | Worst: 2026-05 (75.5%)
+
+=== Churn by plan (95% CI) ===
+Basic: 31.5%  (CI 29.7% - 33.4%, n=2454.0)
+Pro: 17.4%  (CI 15.6% - 19.2%, n=1759.0)
+Enterprise: 8.0%  (CI 6.1% - 9.9%, n=787.0)
+
+=== Churn by segment (95% CI) ===
+Startup: 29.3%  (CI 27.5% - 31.2%, n=2290.0)
+SMB: 20.8%  (CI 18.9% - 22.7%, n=1761.0)
+Mid-market: 11.0%  (CI 9.0% - 12.9%, n=949.0)
+
+Worst segment: Startup at 29.3%
+
+=== Churn drivers (churned vs retained) ===
+avg tenure (months): churned 5.2 vs retained 6.3
+avg tickets / 90d: churned 2.2 vs retained 1.5
+avg days since login: churned 29.5 vs retained 4.0
+High-ticket (>=4) churn rate: 36.2% vs low-ticket: 21.2%
+
+Churn by recency bucket:
+recency_bucket
+active (0-7d)       3.1
+lapsing (8-30d)    58.0
+dormant (31d+)     99.8
+
+=== LTV by segment (avg monthly revenue x avg tenure) ===
+Startup: LTV ₹17,959 | CAC (ASSUMED) ₹6,000 | LTV:CAC = 3.0x
+SMB: LTV ₹30,971 | CAC (ASSUMED) ₹18,000 | LTV:CAC = 1.7x
+Mid-market: LTV ₹59,130 | CAC (ASSUMED) ₹60,000 | LTV:CAC = 1.0x
+
+=== MoM churn trend ===
+Range: 0.9% - 6.6% | Latest (2026-08): 6.6%
+
+=== Chi-square: segment vs churn ===
+chi2 = 134.9, dof = 2, p-value = 5.07e-30
+INTERPRETATION: p < 0.05 — the churn differences between segments are statistically significant; they are very unlikely to be random noise. Segment is a real churn driver.
+
+=== Overall 95% CI ===
+Overall churn rate 22.9% (95% CI 21.7% - 24.0%)

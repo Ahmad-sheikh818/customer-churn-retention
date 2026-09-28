@@ -1,0 +1,7 @@
+Keeping customers is cheaper than finding new ones. But which customers are leaving, and why? I analyzed five thousand SaaS customers to answer that.
+
+Overall churn was twenty-two point nine percent, but it was not evenly spread. Startups churned at twenty-nine point three percent versus eleven percent for mid-market, and a chi-square test confirmed the difference is statistically significant. Churned customers had shorter tenure, more support tickets, and had gone dormant: customers with four or more tickets churned at thirty-six percent.
+
+Then I compared lifetime value to acquisition cost. Startups return three times their acquisition cost; mid-market barely breaks even at one times. So the prescription is clear: focus retention on startups and the Basic plan, reach out proactively at four tickets, and win back dormant logins.
+
+Eleven classic analyst interview terms in one project: cohorts, retention, churn, segmentation, lifetime value, acquisition cost, and significance testing. Full project on my GitHub soon.

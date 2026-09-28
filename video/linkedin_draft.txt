@@ -1,0 +1,12 @@
+22.9% of customers were churning. The fix wasn't "email everyone." It was segmentation.
+
+I analyzed 5,000 SaaS customers:
+- Startups churn at 29.3% vs 11.0% for mid-market. Chi-square test says the difference is real (p = 5.07e-30).
+- Churned customers: shorter tenure, 2.2x support tickets, dormant logins. At 4+ tickets, churn hits 36.2%.
+- LTV vs CAC says where to spend: startups return 3.0x their acquisition cost, mid-market barely 1.0x.
+
+The prescription: focus retention on startups and the Basic plan, trigger outreach at 4 tickets, win back dormant logins.
+
+11 analyst interview terms in one project: EDA, cohort analysis, retention, churn, segmentation, LTV, CAC, MoM, statistical significance, confidence intervals, feature engineering.
+
+#DataAnalytics #Churn #BusinessAnalyst #Python #CustomerSuccess
