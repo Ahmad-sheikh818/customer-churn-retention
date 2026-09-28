@@ -8,6 +8,8 @@ drivers, LTV vs CAC, month-over-month churn trend, and a chi-square
 significance test — every number below comes from a real run of
 `python/churn_analysis.py` (run on 2026-09-26).
 
+**Video walkthrough:** [60-second demo on LinkedIn](https://www.linkedin.com/feed/update/urn:li:ugcPost:7510201687337320448)
+
 ## Why, how, what
 
 **Why** — churn is the silent killer of subscription revenue, but retention
